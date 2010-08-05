@@ -12,7 +12,7 @@ namespace SoundNotifier
 
         public override void WorkComplete()
         {
-            SystemSounds.Exclamation.Play();
+            SystemSounds.Hand.Play();
         }
     }
 }
