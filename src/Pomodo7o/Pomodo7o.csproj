@@ -91,6 +91,7 @@
     <Compile Include="IPomodoroPublisher.cs" />
     <Compile Include="IProgressBar.cs" />
     <Compile Include="ITaskbarManager.cs" />
+    <Compile Include="MainWindowTitlePublisher.cs" />
     <Compile Include="NotifyPropertyChanged.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="ProgressState.cs" />

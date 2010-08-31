@@ -44,6 +44,7 @@ namespace Pomodo7o
                         .Ctor<IProgressBar>().Is(ctx => ctx.GetInstance<TaskbarProgressBar>());
                     x.Type<ProgressUpdater>()
                         .Ctor<IProgressBar>().Is(ctx => ctx.GetInstance<ViewModelProgressBar>());
+                    x.Type<MainWindowTitlePublisher>();
                 });
             });
 
